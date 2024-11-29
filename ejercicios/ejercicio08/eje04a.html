@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Números</title>
+    <script>
+        // Inicializar un array para los números
+        var numeros = [];
+
+        // Solicitar el ingreso de 5 números
+        for (var i = 0; i < 5; i++) {
+            var numero = parseFloat(prompt("Ingresa el número " + (i + 1) + ":"));
+            numeros.push(numero);
+        }
+
+        // Determinar el mayor y el menor número
+        var mayor = Math.max(...numeros);
+        var menor = Math.min(...numeros);
+
+        // Crear un mensaje con la información
+        var mensaje = "Números ingresados: " + numeros.join(", ") + "\n";
+        mensaje += "El mayor número es: " + mayor + "\n";
+        mensaje += "El menor número es: " + menor;
+
+        // Mostrar el resultado
+        alert(mensaje);
+    </script>
+</head>
+<body>
+</body>
+</html>

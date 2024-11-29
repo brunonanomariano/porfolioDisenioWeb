@@ -1,0 +1,73 @@
+#sec1{
+    background-color: lightblue;
+    margin: 20px;
+    padding: 15px;
+}
+
+#sec2{
+    background-image: url("../img/seleccion.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sec3{
+    border: solid 2px red;
+    border-radius: 10px;
+}
+
+#sec4{
+    border: solid;
+    font-weight: bold;
+    padding: 15px;
+    
+}
+
+#div5{
+    background-color: yellow;
+}
+
+#div5 p{
+    text-align: center;
+}
+
+#div5 h2{
+    text-align: center;
+}
+
+#sec6{
+    border: double 5px purple;
+    background-color: gold;
+    margin: 10px;
+}
+
+#sec7{
+    background-image: url(../img/gato.JPG);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+#sec8{
+    background-image: url(../img/bsas.JPG);
+    background-size: 50%;
+    background-repeat: repeat-y;
+}
+
+#sec9{
+    background-color: chocolate;
+    background-image: url(../img/polo.avif);
+    background-size: 50px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+#sec9 a{
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+#sec10{
+    margin-right: 50%;
+    border: dotted 3px lightgreen;
+    padding: 25px;
+}

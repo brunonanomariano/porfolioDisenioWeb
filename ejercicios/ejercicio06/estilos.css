@@ -1,0 +1,67 @@
+@media (min-width: 960px){
+    body{
+        background-color: darkblue;
+    }
+}
+
+@media (max-width: 600px){
+    .fuentes_grandes{
+        font-size: larger;
+    }
+}
+
+@media (orientation: portrait){
+    .ocultar{
+        display: none;
+    }
+}
+
+@media (orientation: landscape){
+    .ocultar{
+        display: block;
+    }
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+@media (max-width: 768px){
+    nav ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.disenio{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+@media (min-width: 1200px){
+    .disenio{
+        margin: 150px;
+    }
+}
+
+@media (max-width: 576px){
+    .titulos{
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+}
+
+img{
+    width: 75%;
+}
+@media (max-width: 480px){
+    img{
+        width: 50%;
+    }
+}

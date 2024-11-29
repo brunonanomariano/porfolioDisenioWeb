@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo</title>
+</head>
+<body>
+    <button id="greetButton">Saludar</button>
+
+    <script>
+        // Función para solicitar el nombre y mostrar un saludo
+        function greetUser() {
+            const userName = prompt('¿Cuál es tu nombre?');
+            if (userName) {
+                alert('Hola, ' + userName + '!');
+            }
+        }
+
+        // Asocia la función al botón usando el DOM
+        const button = document.getElementById('greetButton');
+        button.addEventListener('click', greetUser);
+    </script>
+</body>
+</html>

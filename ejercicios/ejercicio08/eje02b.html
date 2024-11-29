@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Rectángulo</title>
+    <script>
+        // Función para calcular y mostrar el perímetro y el área
+        function calcularRectangulo() {
+            var lado1 = parseFloat(prompt("Ingresa el primer lado del rectángulo:"));
+            var lado2 = parseFloat(prompt("Ingresa el segundo lado del rectángulo:"));
+
+            // Calcular perímetro y área
+            var perimetro = 2 * (lado1 + lado2);
+            var area = lado1 * lado2;
+
+            // Mostrar resultados en el DOM
+            document.getElementById("resultado-perimetro").textContent = "El perímetro del rectángulo es: " + perimetro;
+            document.getElementById("resultado-area").textContent = "El área del rectángulo es: " + area;
+        }
+    </script>
+</head>
+<body onload="calcularRectangulo()">
+    <p id="resultado-perimetro"></p>
+    <p id="resultado-area"></p>
+</body>
+</html>

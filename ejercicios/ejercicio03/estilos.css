@@ -1,0 +1,55 @@
+#principal{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+
+.titulo_azul{
+    color: #0070bf;
+}
+
+.titulo_naranja{
+    color: #e8883a;
+}
+
+#parrafo1{
+    color: #fe0000;
+}
+
+#parrafo2{
+    color: #93d052; 
+}
+
+#parrafo3 {
+    color: #efd3d2;
+}
+
+#parrafo4{
+    color: #b1a0c6;
+}
+
+#parrafo4 strong{
+    color: #5f497a;
+}
+
+#parrafo5{
+    color: #fe94e4;
+}
+
+#parrafo5 strong{
+    color: #d14ba4;
+}
+
+#parrafo3 strong {
+    color: #cda2a1;
+}
+
+#parrafo2 strong{
+    color: #a7b881;
+}
+
+#parrafo1 strong{
+    font-weight: lighter;
+    color: #a40121;
+}
+
